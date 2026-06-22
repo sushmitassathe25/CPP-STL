@@ -1,7 +1,5 @@
 # C++ Standard Template Library (STL) - Complete Guide
 
-## 📖 Definition
-
 The **C++ Standard Template Library (STL)** is a collection of template classes and functions that provide general-purpose classes and functions with templates that implement many popular and useful algorithms and data structures like queues, stacks, lists, and arrays. It is a powerful library that forms part of the C++ Standard Library and enables you to write efficient, reusable, and maintainable code.
 
 ---
@@ -13,8 +11,8 @@ The **C++ Standard Template Library (STL)** is a collection of template classes 
 Imagine you're building an online shopping platform with sophisticated filtering and sorting:
 - **Vector (Container)**: Store multiple products in a shopping cart
 - **Algorithm (Sort)**: Sort products by price, rating, or discount using custom logic
-- **Iterator**: Navigate through cart items efficiently
 - **Algorithm (Find)**: Search for a specific product quickly
+- **Iterator**: Navigate through cart items efficiently
 - **Functors**: Apply custom discount rules, validation logic, and price calculations
 
 Instead of manually implementing all these features, STL provides ready-made, optimized solutions!
@@ -27,11 +25,9 @@ Instead of manually implementing all these features, STL provides ready-made, op
 
 ---
 
-## 📊 STL Architecture
+![C++ STL Components](cpp-stl.jpeg)
 
-![C++ STL Architecture](cpp-stl.jpeg)
-
-*The above image shows the comprehensive architecture and components of C++ STL*
+*The above image shows the components of C++ STL in the single digram*
 
 ---
 
@@ -243,7 +239,7 @@ Using lambda: 10 20 30 40 50
 
 ---
 
-## 🎯 Complete E-Commerce Example with Functors
+## 🎯 Complete E-Commerce Example
 
 ```cpp
 #include <iostream>
@@ -486,5 +482,3 @@ int main() {
 6. **Leverage algorithms with iterators and functors to solve complex problems efficiently**
 
 ---
-
-*Last Updated: 2026-06-22*
