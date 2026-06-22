@@ -113,8 +113,3 @@ Specialized containers that provide restricted interfaces built on top of other 
 - You need elements retrieved in priority order
 - You're implementing algorithms like Dijkstra or Huffman coding
 
----
-
-## Reference
-
-For detailed information and official documentation, refer to: [C++ Reference - Containers](https://en.cppreference.com/cpp/container)
