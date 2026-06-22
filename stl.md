@@ -25,9 +25,11 @@ Instead of manually implementing all these features, STL provides ready-made, op
 
 ---
 
+## 🔧 STL Overview
+
 ![C++ STL Components](cpp-stl.jpeg)
 
-*The above image shows the components of C++ STL in the single digram*
+*The above image shows the components and overview of C++ STL in the single digram*
 
 ---
 
