@@ -31,8 +31,6 @@ Instead of manually implementing all these features, STL provides ready-made, op
 
 *The above image shows the components and overview of C++ STL in the single digram*
 
----
-
 ## 🔧 STL Components Overview
 
 STL consists of **four main components**:
