@@ -37,16 +37,20 @@ Specialized containers that provide restricted interfaces built on top of other 
 ## Complete List of STL Containers
 
 ### **SEQUENCE CONTAINERS**
+- Sequence containers implement data structures which can be accessed sequentially. 
 
 | Container | Description |
 |-----------|-------------|
 | **vector** | Dynamic array that grows/shrinks automatically; provides random access with O(1) complexity |
 | **deque** | Double-ended queue allowing efficient insertion/deletion at both front and back |
 | **list** | Doubly-linked list providing efficient insertion/deletion at any position with O(1) complexity |
-| **forward_list** | Singly-linked list consuming less memory than list but with unidirectional traversal |
-| **array** | Fixed-size container wrapper for C-style arrays with STL interface and bounds checking |
+| **forward_list** | (Added in C++11) Singly-linked list consuming less memory than list but with unidirectional traversal |
+| **array** | (Added in C++11) Fixed-size container wrapper for C-style arrays with STL interface and bounds checking |
+| **inplace_vector** | (Added in C++26) Dynamically-resizable array with contiguous inplace storage with fixed capacity |
+| **hive** | (Added in C++26) Automatically manages its storage in multiple memory blocks (element blocks). sequence container that provides constant-time insertion and erasure operations. |
 
 ### **ASSOCIATIVE CONTAINERS**
+- Associative containers implement sorted data structures that can be quickly searched (O(log n) complexity). 
 
 | Container | Description |
 |-----------|-------------|
@@ -56,6 +60,8 @@ Specialized containers that provide restricted interfaces built on top of other 
 | **multimap** | Sorted collection of key-value pairs allowing duplicate keys; enables multiple values per key |
 
 ### **UNORDERED ASSOCIATIVE CONTAINERS**
+- Unordered associative containers implement unsorted (hashed) data structures that can be quickly searched (O(1) average, O(n) worst-case complexity).
+- Added in C++11
 
 | Container | Description |
 |-----------|-------------|
@@ -65,12 +71,22 @@ Specialized containers that provide restricted interfaces built on top of other 
 | **unordered_multimap** | Hash table-based key-value pairs allowing duplicate keys with unordered arrangement |
 
 ### **CONTAINER ADAPTERS**
+- Container adaptors provide a different interface for sequential containers. 
 
 | Container | Description |
 |-----------|-------------|
 | **stack** | LIFO (Last-In-First-Out) adapter built on top of deque/vector/list for push/pop operations |
 | **queue** | FIFO (First-In-First-Out) adapter built on top of deque/list for enqueue/dequeue operations |
 | **priority_queue** | Priority-based queue adapter that always retrieves the highest priority element first |
+
+- *Below containers are added in C++23*
+
+| Container | Description |
+|-----------|-------------| 
+| **flat_set** | Associative container that stores a sorted set of unique objects of type Key. |
+| **flat_multiset** | Stores a sorted set of objects of type Key. Unlike flat_set, multiple keys with equivalent values are allowed. |
+| **flat_map** | Associative container that contains key-value pairs with unique keys. |
+| **flat_multimap** | Contains key-value pairs, while permitting multiple entries with the same key value. |
 
 ---
 
