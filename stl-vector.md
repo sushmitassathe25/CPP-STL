@@ -44,7 +44,7 @@ When you `push_back()` and `size() == capacity()`, the vector allocates a larger
 | Operation | Complexity |
 |-----------|-----------|
 | Access by index (`operator[]`, `at`) | O(1) |
-| `push_back` (amortized) | O(1) |
+| `push_back` | O(1) |
 | `pop_back` | O(1) |
 | `insert` / `erase` at arbitrary position | O(N) (linear due to element shifting) |
 | `reserve` (if causes reallocation) | O(N) |
