@@ -1,14 +1,13 @@
-# std::vector — Detailed Guide
-
-![vector](vector.jpeg)
-
-## Definition
+# VECTOR
 
 `std::vector<T>` is a dynamic array container from the C++ Standard Library that encapsulates variable-size arrays. It stores elements contiguously in memory and manages storage automatically with dynamic allocation. The container provides random access to elements, efficient insertion/deletion at the end, and amortized constant-time performance for `push_back`.
 
 **Header:** `<vector>`
 
 **Template:** `template< class T, class Allocator = std::allocator<T> > class vector;`
+
+
+![vector](vector.jpeg)
 
 ## High-level characteristics
 
