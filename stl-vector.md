@@ -585,14 +585,3 @@ Reverse: 40 30 20 99 0
 ```
 
 ---
-
-## References
-
-- **[cppreference.com — std::vector](https://en.cppreference.com/w/cpp/container/vector)** — Complete reference with detailed specifications.
-- **[cppreference.com — Containers library](https://en.cppreference.com/w/cpp/container)** — Overview of all standard containers.
-- **C++ Standard** (ISO/IEC 14882) — Official language specification.
-- **Stroustrup, B.** — "The C++ Programming Language" — Authoritative guide to C++.
-
----
-
-**Last updated:** 2026-06-23
