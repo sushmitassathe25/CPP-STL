@@ -199,7 +199,7 @@ for (auto it = range_start; it != range_end; ++it) {
 
 - **DNS Resolution Tables**: A single domain name (the Key) can resolve to multiple different IP addresses (the Values).
 
-- **GDictionary / Thesaurus**: A single word can have multiple distinct definitions or synonyms.
+- **Dictionary / Thesaurus**: A single word can have multiple distinct definitions or synonyms.
 
 - **Event Subscriber Systems**: Mapping an event type (Key: `"ON_CLICK"`) to multiple different callback functions or observer objects (Values).
 
